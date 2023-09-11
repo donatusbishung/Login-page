@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Manrope:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: #E2E6E9;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 40%;
+    /* height: 100vh; */
+    height: auto;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    border-radius: 10px;
+    gap: 1.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: .1em;
+}
+
+.header p {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    /* line-height: 42px; */
+    /* letter-spacing: .1em; */
+}
+
+.header p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header p a:hover {
+    color: #3455eb;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -1em;
+}
+
+.form-section form label {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: .5rem;
+}
+
+.form-section form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E2E6E9;
+    border-radius: 5px;
+}
+
+.form-section button {
+    background-color: #3455eb;
+    color: #ffffff;
+    border: none;
+    margin-top: 2rem;
+    padding: 16px 30px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.form-section button:hover {
+    background-color: #E2E6E9;
+    cursor: pointer;
+}
+
+.or-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.or-section hr {
+    width: 50%;
+    color: #E2E6E9;
+    opacity: 50%;
+}
+
+.socials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E2E6E9;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
